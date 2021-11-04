@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+        <section class="main">
+            <h1 id="pg" >Calculadora</h1>
+            <input type="text" name="campo"  placeholder="Calc" id="campo" >
+            <div class="comands">
+               
+                <div class="line-1">
+                    <input type="button" value="7"  onclick="btn7()">
+                    <input type="button" value="8"  onclick="btn8()">
+                    <input type="button" value="9"  onclick="btn9()">
+                </div>
+
+                <div class="line-2">
+                    <input type="button" value="4"  onclick="btn4()">
+                    <input type="button" value="5" onclick="btn5()">
+                    <input type="button" value="6" onclick="btn6()">
+                </div>
+
+                <div class="line-3">
+                    <input type="button" value="1" onclick="btn1()">
+                    <input type="button" value="2" onclick="btn2()">
+                    <input type="button" value="3" onclick="btn3()">
+                 
+                </div>
+                <input type="button" value="." id="dote" onclick="btnDote()">
+                <input type="button" value="0" id="zero" onclick="btn0()">
+                <input type="button" value="="id="iqual"onclick="iqual()" >
+               
+                
+                    <div class="line-4">
+                        <input type="button" value="/" class="operation" onclick="div()">
+                        <input type="button" value="*" class="operation" onclick="mult()">
+                        <input type="button" value="+" class="operation" onclick="soma()">
+                        <input type="button" value="-" class="operation" onclick="sub()">
+                    </div>
+
+                    <input type="reset" value="x" id="clear" onclick="btnClear()">
+                  
+               
+
+            </div>
+        </section>
+
+ 
+        <script src="assets/js/js.js"></script>
+
+</body>
+</html>
